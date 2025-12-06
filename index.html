@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Silly Hound! - Final Presentation Game</title>
+</head>
+<body>
+    <div>
+        <h2>Silly Hound! <i><span>Use the a,d,space keys to move the avatar</span></i></h2>
+        <canvas width="800" height="500"></canvas>
+    </div>
+   
+    <div id="instructions">
+        <h2>INSTRUCTIONS</h2>
+        <p><b>Use the following keys to control the avatar:
+           <h3>Controls</h3>
+           <ul>
+            <li>left - A Key</li>
+            <li>right - D Key</li>
+            <li>jump - Space Bar</li>
+           </ul></b>
+        </p>
+    </div>
+
+    <div class="hidden">
+        <img src="images/default.png" alt="Default" id="default">
+        <img src="images/mrt.png" alt="Mr T" id="mrt">
+        <img src="images/snoop-1.png" alt="Snoop" id="snoop-1">
+    </div>
+
+    <!-- Audio element -->
+    <audio id="bg-music" src="BeepBox-Song.mp3" loop></audio>
+
+    <!-- Scripts -->
+    <script src="js/utility.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/GameObject.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
